@@ -128,7 +128,7 @@
 
 
     <!-- Contact Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -177,7 +177,79 @@
                 </div>
             </div>
         </div>
+    </div> -->
+
+    <div class="container py-5">
+        <div class="row g-4 align-items-center">
+            <!-- Contact Info Section -->
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Get In Touch</h6>
+                <h1 class="mb-4">Contact Us for Any Query</h1>
+                <p class="mb-4">We are here to help! Fill out the form, and we will get back to you as soon as possible.</p>
+                
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-geo-alt fs-4 text-primary me-3"></i>
+                    <p class="mb-0">Shop no.5, Janta road, Sanjay nagar kandivali (w), Mumbai-400067</p>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-telephone fs-4 text-primary me-3"></i>
+                    <p class="mb-0"><a href="tel:8108579756" class="text-dark">+91 88507 95579</a></p>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-envelope fs-4 text-primary me-3"></i>
+                    <p class="mb-0">support@.com</p>
+                </div>
+                
+                <iframe class="w-100 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.9172134854757!2d72.8317742!3d19.198817899999995" frameborder="0" style="height: 250px; border:0;" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Contact Form Section -->
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="bg-light p-4 rounded shadow-sm">
+                    <form id="contactForm" action="send-mail.php" method="post">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="phone" id="phone" class="form-control" placeholder="Contact Number">
+                            </div>
+                            <div class="col-md-6">
+                                <select class="form-select" name="service" id="serviceSelect">
+                                    <option selected disabled>Choose a service...</option>
+                                    <option value="gas-hob-repair">Gas Hob Repair</option>
+                                    <option value="chimney-repair">Chimney Repair</option>
+                                    <option value="gas-stove-repair">Gas Stove Repair</option>
+                                    <option value="gas-cooktop-repair">Gas Cooktop Repair</option>
+                                    <option value="microwave-repair">Microwave Repair</option>
+                                    <option value="micro-oven-repair">Micro Oven Repair</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="address" id="address" placeholder="Your Address">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" name="zipcode" id="zipcode" class="form-control" placeholder="Pin Code">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" name="message" rows="4" id="message" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-2" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+    
     <!-- Contact End -->
 
 
